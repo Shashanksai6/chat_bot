@@ -25,6 +25,29 @@ intents:
 - energy
 - thanks
 - deny
+- kilometer:
+      use_entities:
+        - KILOMETRE
+- dates:
+      use_entities:
+        - date
+
+- region:
+      use_entities:
+        - region
+- brands:
+      use_entities:
+        - car_brand
+- carmodel:
+      use_entities:
+        - models
+- request:
+      use_entities:
+        - request
+
+- km
+- price
+- power
 
 entities:
 - KILOMETRE
